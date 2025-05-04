@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Tehnomak Inzenering"
+  },
+  "lang": {
+    "mk": "Macedonian",
+    "en": "English"
+  },
+  "cards": {
+    "id": "Unique identification number",
+    "contact": "Contact",
+    "address": "Address"
+  },
+  "title": {
+    "priceList": "Our price list"
+  },
+  "table": {
+    "location": "Location",
+    "product": "Product",
+    "price": "Price ($)",
+    "rating": "Rating",
+    "stock": "Stock"
+  },
+  "footer": {
+    "connect": "Get connected with us on social networks!",
+    "email": "Email",
+    "contact": "Contact",
+    "hours": "Working Hours",
+    "hoursValue": "Mon - Fri: 09:00 - 17:00"
+  }
+}
