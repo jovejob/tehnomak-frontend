@@ -11,8 +11,10 @@ export default createVuetify({
       myDarkTheme: {
         dark: true,
         colors: {
-          primary: "#009688", // Teal
-          secondary: "#26a69a",
+          // primary: "#009688", // Teal
+          // secondary: "#26a69a",
+          primary: "#004687", // Blue
+          secondary: "#03A9F4", // Light Blue
           background: "#121212",
           surface: "#1e1e1e",
           "on-primary": "#ffffff",
