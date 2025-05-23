@@ -1,39 +1,3 @@
-<!-- <template>
-  <v-row class="mb-6" dense>
-    <v-col
-      v-for="card in translatedCards"
-      :key="card.title"
-      cols="12"
-      md="4"
-    >
-      <v-card
-        class="pa-4 hover-card"
-        elevation="4"
-        color="grey-lighten-4"
-        rounded="xl"
-      >
-        <v-row no-gutters align="center">
-          <v-col cols="auto">
-            <v-icon
-              :icon="card.icon"
-              size="36"
-              class="me-4 text-primary"
-            />
-          </v-col>
-          <v-col>
-            <div class="text-subtitle-1 font-weight-medium">
-              {{ card.title }}
-            </div>
-            <div class="text-body-2 text-grey-darken-2">
-              {{ card.value }}
-            </div>
-          </v-col>
-        </v-row>
-      </v-card>
-    </v-col>
-  </v-row>
-</template> -->
-
 <template>
   <v-row class="mb-6" dense>
     <v-col
@@ -62,9 +26,10 @@
             <div class="text-subtitle-1 font-weight-medium">
               {{ card.title }}
             </div>
-            <div class="text-body-2">
+            <div class="text-body-2" v-html="card.value"></div>
+            <!-- <div class="text-body-2">
               {{ card.value }}
-            </div>
+            </div> -->
           </v-col>
         </v-row>
       </v-card>
@@ -108,12 +73,12 @@ const translatedCards = computed(() => [
   },
   {
     title: t('cards.contact'),
-    value: cardData.value.contact,
+    value: '+389 47 237 757 <br /> +389 75 332 651',//cardData.value.contact,
     icon: 'mdi-phone',
   },
   {
     title: t('cards.address'),
-    value: cardData.value.address,
+    value: 'ул. Индустриска, 7000 Битола <br /> (во близина на Идеал Шипка)',//cardData.value.address,
     icon: 'mdi-map-marker',
   },
 ])

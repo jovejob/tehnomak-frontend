@@ -26,6 +26,7 @@
     "email": "Email",
     "contact": "Contact",
     "hours": "Working Hours",
-    "hoursValue": "Mon - Fri: 09:00 - 17:00"
+    "hoursValue": "Mon - Fri: 08:00 - 17:00",
+    "hoursValueWeekend": "Sat: 08:00 - 15:00"
   }
 }

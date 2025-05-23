@@ -23,15 +23,17 @@
       <v-row justify="center" dense>
         <v-col cols="12" md="4">
           <div class="font-weight-medium">📧 {{ t('footer.email') }}</div>
-          <div>info@myportfolio.com</div>
+          <div>info@tehnomak.mk</div>
         </v-col>
         <v-col cols="12" md="4">
           <div class="font-weight-medium">📞 {{ t('footer.contact') }}</div>
-          <div>+389 70 123 456</div>
+          <div>+389 47 237 757</div>
+          <div>+389 75 332 651</div>
         </v-col>
         <v-col cols="12" md="4">
           <div class="font-weight-medium">🕐 {{ t('footer.hours') }}</div>
           <div>{{ t('footer.hoursValue') }}</div>
+          <div>{{ t('footer.hoursValueWeekend') }}</div>
         </v-col>
       </v-row>
     </v-container>
